@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Net.Mail;
 
-namespace ActionMailer.Net {
+namespace ActionMailerNext {
     /// <summary>
     /// Implements IMailSender by using System.Net.Mail.SmtpClient.
     /// </summary>

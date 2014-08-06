@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ActionMailer.Net {
+namespace ActionMailerNext {
     /// <summary>
     /// A collection of attachments.  This is basically a glorified Dictionary.
     /// </summary>

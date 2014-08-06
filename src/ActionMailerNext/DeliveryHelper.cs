@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Net.Mail;
 
-namespace ActionMailer.Net {
+namespace ActionMailerNext {
     /// <summary>
     /// Some helpers used to dilver mail.  Reduces the need to repeat code.
     /// </summary>

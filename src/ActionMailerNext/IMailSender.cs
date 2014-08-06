@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Net.Mail;
 
-namespace ActionMailer.Net {
+namespace ActionMailerNext {
     /// <summary>
     /// An object used to deliver mail.
     /// </summary>

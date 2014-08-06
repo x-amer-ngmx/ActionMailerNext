@@ -3,7 +3,7 @@ using System.IO;
 using System.Linq;
 using System.Net.Mail;
 
-namespace ActionMailer.Net {
+namespace ActionMailerNext {
     /// <summary>
     /// Some simple extension methods for the IMailerBase interface so we can use
     /// them in all implementations.

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ActionMailer.Net {
+namespace ActionMailerNext {
     /// <summary>
     /// Thrown when ActionMailer cannot locate any views for a given EmailResult
     /// </summary>

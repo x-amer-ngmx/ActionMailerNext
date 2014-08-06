@@ -1,6 +1,6 @@
 ﻿using System.Net.Mail;
 
-namespace ActionMailer.Net {
+namespace ActionMailerNext {
     /// <summary>
     /// A special context object used by the OnMailSending() method
     /// to allow you to inspect the underlying MailMessage before it

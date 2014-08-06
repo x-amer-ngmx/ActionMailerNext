@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Text;
 
-namespace ActionMailer.Net {
+namespace ActionMailerNext {
     /// <summary>
     /// All mailers should implement this interface.
     /// </summary>

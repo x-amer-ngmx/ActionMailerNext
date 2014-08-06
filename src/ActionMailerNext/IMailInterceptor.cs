@@ -1,6 +1,6 @@
 ﻿using System.Net.Mail;
 
-namespace ActionMailer.Net {
+namespace ActionMailerNext {
     /// <summary>
     /// A simple interface that allows for reading or manipulating mail
     /// messages before and after transfer.

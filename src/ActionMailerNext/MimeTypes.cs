@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ActionMailer.Net {
+namespace ActionMailerNext {
     /// <summary>
     /// Just a handy class for finding mime types.
     /// </summary>
