@@ -4,6 +4,7 @@ using System.Net.Mail;
 using System.Net.Mime;
 using System.Text;
 using System.Web.Mvc;
+using ActionMailerNext;
 
 namespace ActionMailer.Net.Mvc5 {
     /// <summary>

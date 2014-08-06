@@ -21,20 +21,18 @@
  */
 #endregion
 
-using System.Net.Mail;
-using NUnit.Framework;
+using System.IO;
+using System.Reflection;
+using System.Text;
+using ActionMailer.Net.Standalone;
 
-namespace ActionMailer.Net.Tests {
-    [TestFixture]
-    public class MailSendingContextTests {
-        [Test]
-        public void MailContextConstructorSetsUpObjectProperly() {
-            var mail = new MailMessage("no-reply@test.com", "test@test.com");
-            
-            var context = new MailSendingContext(mail);
+namespace ActionMailer.Net.Tests.Standalone {
+    public class TestMailerBase : RazorMailerBase {
+        public TestMailerBase(IMailSender sender = null, Encoding defaultMessageEncoding = null)
+            : base(sender, defaultMessageEncoding) { }
 
-            Assert.AreEqual(mail, context.Mail);
-            Assert.False(context.Cancel);
+        public override string ViewPath {
+            get { return Path.Combine(Assembly.GetExecutingAssembly().FullName, "..", "..", "..", "Standalone", "TestViews"); }
         }
     }
 }

@@ -26,6 +26,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Web.Mvc;
+using ActionMailerNext;
 using FakeItEasy;
 using NUnit.Framework;
 using System.Web.Routing;

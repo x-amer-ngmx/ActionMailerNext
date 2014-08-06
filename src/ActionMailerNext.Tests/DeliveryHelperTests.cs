@@ -24,6 +24,7 @@
 using System;
 using System.Net.Mail;
 using System.Threading;
+using ActionMailerNext;
 using FakeItEasy;
 using NUnit.Framework;
 

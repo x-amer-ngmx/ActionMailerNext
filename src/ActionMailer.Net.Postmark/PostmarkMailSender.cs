@@ -1,4 +1,5 @@
-﻿using RestSharp;
+﻿using ActionMailerNext;
+using RestSharp;
 using System;
 using System.Net.Mail;
 

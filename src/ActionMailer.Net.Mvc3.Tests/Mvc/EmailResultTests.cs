@@ -23,6 +23,7 @@
 
 using System;
 using System.Net.Mail;
+using ActionMailerNext;
 using FakeItEasy;
 using NUnit.Framework;
 

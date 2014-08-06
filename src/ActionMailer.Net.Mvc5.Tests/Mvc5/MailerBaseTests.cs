@@ -28,6 +28,7 @@ using System.Text;
 using System.Web.Mvc;
 using System.Web.Routing;
 using ActionMailer.Net.Mvc5.Tests.Areas.TestArea.Controllers;
+using ActionMailerNext;
 using FakeItEasy;
 using NUnit.Framework;
 

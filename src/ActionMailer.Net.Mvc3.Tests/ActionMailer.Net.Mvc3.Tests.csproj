@@ -66,10 +66,6 @@
       <Project>{f6389def-0b5c-46ca-baaf-241e210c8744}</Project>
       <Name>ActionMailer.Net.Mvc3</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ActionMailer.Net\ActionMailer.Net.csproj">
-      <Project>{85ec0023-cbbf-4c91-8681-d88da6334305}</Project>
-      <Name>ActionMailer.Net</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

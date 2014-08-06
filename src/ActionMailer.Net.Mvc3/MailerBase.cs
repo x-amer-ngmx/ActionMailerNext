@@ -1,4 +1,6 @@
-﻿namespace ActionMailer.Net.Mvc3 {
+﻿using ActionMailerNext;
+
+namespace ActionMailer.Net.Mvc3 {
     using System;
     using System.Collections.Generic;
     using System.Net.Mail;
@@ -7,7 +9,7 @@
     using System.Web.Mvc;
     using System.Web.Routing;
 
-    using AttachmentCollection = ActionMailer.Net.AttachmentCollection;
+    using AttachmentCollection = AttachmentCollection;
 
     /// <summary>
     /// The base class that your controller should inherit from if you wish

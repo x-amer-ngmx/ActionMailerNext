@@ -26,6 +26,7 @@ using System.Web;
 using System.Web.Mvc;
 using ActionMailer.Net.Mvc5_2;
 using ActionMailer.Net.Mvc5_2.Tests.Mvc5_2;
+using ActionMailerNext;
 
 namespace ActionMailer.Net.Mvc5_2.Tests.Mvc5_2
 {

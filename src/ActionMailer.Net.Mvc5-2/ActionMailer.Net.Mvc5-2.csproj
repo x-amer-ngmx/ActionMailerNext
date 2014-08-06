@@ -77,12 +77,6 @@
     <Compile Include="UrlHelperExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ActionMailer.Net\ActionMailer.Net.csproj">
-      <Project>{85ec0023-cbbf-4c91-8681-d88da6334305}</Project>
-      <Name>ActionMailer.Net</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

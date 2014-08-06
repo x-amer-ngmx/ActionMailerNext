@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.Net.Mail;
 using System.Text;
+using ActionMailerNext;
 using RazorEngine.Configuration;
 using RazorEngine.Templating;
+using AttachmentCollection = ActionMailerNext.AttachmentCollection;
 
 namespace ActionMailer.Net.Standalone {
     /// <summary>

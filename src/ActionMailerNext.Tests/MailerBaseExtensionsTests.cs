@@ -25,6 +25,7 @@ using System;
 using System.IO;
 using System.Linq;
 using System.Reflection;
+using ActionMailerNext;
 using NUnit.Framework;
 
 namespace ActionMailer.Net.Tests {

@@ -61,12 +61,6 @@
     <Compile Include="TemplateResolvingException.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ActionMailer.Net\ActionMailer.Net.csproj">
-      <Project>{85EC0023-CBBF-4C91-8681-D88DA6334305}</Project>
-      <Name>ActionMailer.Net</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

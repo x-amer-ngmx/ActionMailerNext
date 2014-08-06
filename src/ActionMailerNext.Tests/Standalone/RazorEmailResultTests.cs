@@ -24,6 +24,7 @@
 using System;
 using System.Net.Mail;
 using ActionMailer.Net.Standalone;
+using ActionMailerNext;
 using FakeItEasy;
 using RazorEngine.Templating;
 using NUnit.Framework;

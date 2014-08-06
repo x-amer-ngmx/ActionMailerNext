@@ -1,4 +1,5 @@
-﻿using RazorEngine.Templating;
+﻿using ActionMailerNext;
+using RazorEngine.Templating;
 using System;
 using System.Net.Mail;
 using System.Net.Mime;

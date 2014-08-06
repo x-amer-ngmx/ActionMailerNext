@@ -1,4 +1,6 @@
-﻿namespace ActionMailer.Net.Mvc5_2
+﻿using ActionMailerNext;
+
+namespace ActionMailer.Net.Mvc5_2
 {
     using System;
     using System.IO;

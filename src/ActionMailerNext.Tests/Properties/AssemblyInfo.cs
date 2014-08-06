@@ -21,22 +21,19 @@
  */
 #endregion
 
-using System.IO;
 using System.Reflection;
-using System.Text;
-using ActionMailer.Net.Standalone;
+using System.Runtime.InteropServices;
 
-namespace ActionMailer.Net.Tests.Standalone {
-    public class TestMailerBase : RazorMailerBase {
-        public TestMailerBase(IMailSender sender = null, Encoding defaultMessageEncoding = null)
-            : base(sender, defaultMessageEncoding) { }
+[assembly: AssemblyTitle("ActionMailerNext.Tests")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("Scott W. Anderson, crossvertise GmbH")]
+[assembly: AssemblyProduct("ActionMailerNext")]
+[assembly: AssemblyCopyright("Copyright © 2014")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+[assembly: ComVisible(false)]
+[assembly: Guid("6374909b-fa78-4f4c-b1bc-41331740c4d0")]
 
-        public override string ViewPath {
-            get { return Path.Combine(Assembly.GetExecutingAssembly().FullName, "..", "..", "..", "Standalone", "TestViews"); }
-        }
-    }
-
-    public class TestModel {
-        public string Name { get; set; }
-    }
-}
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]

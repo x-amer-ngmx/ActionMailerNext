@@ -21,35 +21,21 @@
  */
 #endregion
 
-using System.Collections.Generic;
 using System.Net.Mail;
-using System.Text;
-using FakeItEasy;
+using ActionMailerNext;
+using NUnit.Framework;
 
 namespace ActionMailer.Net.Tests {
-    public class StubMailerBase : IMailerBase {
-        public string From { get; set; }
-        public string Subject { get; set; }
-        public IList<string> To { get; private set; }
-        public IList<string> CC { get; private set; }
-        public IList<string> BCC { get; private set; }
-        public IList<string> ReplyTo { get; private set; }
-        public IDictionary<string, string> Headers { get; private set; }
-        public Encoding MessageEncoding { get; set; }
-        public AttachmentCollection Attachments { get; private set; }
-        public IMailSender MailSender { get; set; }
-        public void OnMailSending(MailSendingContext context) { }
-        public void OnMailSent(MailMessage mail) { }
+    [TestFixture]
+    public class MailSendingContextTests {
+        [Test]
+        public void MailContextConstructorSetsUpObjectProperly() {
+            var mail = new MailMessage("no-reply@test.com", "test@test.com");
+            
+            var context = new MailSendingContext(mail);
 
-        public StubMailerBase() {
-            To = new List<string>();
-            CC = new List<string>();
-            BCC = new List<string>();
-            ReplyTo = new List<string>();
-            Headers = new Dictionary<string, string>();
-            MessageEncoding = Encoding.Default;
-            Attachments = new AttachmentCollection();
-            MailSender = A.Fake<IMailSender>();
+            Assert.AreEqual(mail, context.Mail);
+            Assert.False(context.Cancel);
         }
     }
 }

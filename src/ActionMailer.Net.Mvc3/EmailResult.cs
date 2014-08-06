@@ -1,4 +1,6 @@
-﻿namespace ActionMailer.Net.Mvc3 {
+﻿using ActionMailerNext;
+
+namespace ActionMailer.Net.Mvc3 {
     using System;
     using System.IO;
     using System.Net.Mail;

@@ -24,6 +24,7 @@
 using System;
 using System.IO;
 using System.Text;
+using ActionMailerNext;
 using FakeItEasy;
 using NUnit.Framework;
 
