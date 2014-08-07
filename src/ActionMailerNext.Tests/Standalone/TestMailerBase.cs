@@ -25,6 +25,7 @@ using System.IO;
 using System.Reflection;
 using System.Text;
 using ActionMailer.Net.Standalone;
+using ActionMailerNext;
 
 namespace ActionMailer.Net.Tests.Standalone {
     public class TestMailerBase : RazorMailerBase {
