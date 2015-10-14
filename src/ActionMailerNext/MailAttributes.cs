@@ -37,6 +37,7 @@ namespace ActionMailerNext
 
             From = mailAttributes.From;
             Subject = mailAttributes.Subject;
+            SubjectEncoding = mailAttributes.SubjectEncoding;
             Priority = mailAttributes.Priority;
             
             IsCcToSupported = mailAttributes.IsCcToSupported;
