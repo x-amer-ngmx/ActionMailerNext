@@ -77,6 +77,11 @@ namespace ActionMailerNext
         ///     The subject line of the email.
         /// </summary>
         public string Subject { get; set; }
+        
+        /// <summary>
+        ///     The customize subject endcoding.
+        /// </summary>
+        public Encoding SubjectEncoding { get; set; }
 
         /// <summary>
         ///     The Priority of the email.
