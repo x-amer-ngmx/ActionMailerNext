@@ -37,6 +37,7 @@ namespace ActionMailerNext
 
             From = mailAttributes.From;
             Subject = mailAttributes.Subject;
+            SubjectEncoding = mailAttributes.SubjectEncoding; //It is nided
             Priority = mailAttributes.Priority;
             
             IsCcToSupported = mailAttributes.IsCcToSupported;
@@ -77,6 +78,11 @@ namespace ActionMailerNext
         /// </summary>
         public string Subject { get; set; }
 
+        /// <summary>
+        ///     The customize subject endcoding.
+        /// </summary>
+        public Encoding SubjectEncoding { get; set; }
+        
         /// <summary>
         ///     The Priority of the email.
         /// </summary>
